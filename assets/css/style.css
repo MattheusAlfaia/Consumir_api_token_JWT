@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #4f0095;
+}
+.consulta{
+    background: #6445cd;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.box{
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    margin-bottom: 25px;
+}
+
+.box h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.box form input[type="text"]{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.box form input[type="password"]{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.box form input[type="number"]{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.box form input[type="submit"]{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: #333;
+    cursor: pointer;
+}
+
+.box form input[type="submit"]:hover{
+    background: #666;
+}
+
+.listaRegistros{
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    margin-bottom: 25px;
+}
+
+.listaRegistros h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.lista{
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.lista ul{
+    width: 100%;
+    list-style: none;
+}
+
+.lista ul li{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+}
+
+.lista ul li:last-child{
+    border-bottom: none;
+}
+
+.lista ul li p{
+    width: 100%;
+    padding: 10px 0;
+}
